@@ -1,2 +1,2 @@
 # GAS-tools
-Knick-knacks and odds for Google Apps Script
+Useful functions and  other knick-knacks for Google Apps Script
