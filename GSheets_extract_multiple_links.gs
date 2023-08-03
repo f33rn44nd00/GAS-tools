@@ -1,3 +1,7 @@
+/* Meant to work on a single cell and be iterated from outside
+This is because the alternate method .getRichTextValues() returns a double list, which just complicates extraction needlessly
+Returns a list with the raw link text
+*/
 function rtfTest(sheetname,cell) {
   var spsheet = SpreadsheetApp.getActiveSpreadsheet();
   var sheet = spsheet.getSheetByName(sheetname);
